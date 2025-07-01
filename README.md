@@ -1,58 +1,15 @@
 # CRUD-WEB
-Este é um projeto acadêmico desenvolvido com o objetivo de simular um sistema básico de gerenciamento de uma biblioteca.
-Ele permite o cadastro e visualização de livros, gerenciamento de usuários (clientes e funcionários), login, e outras funcionalidades essenciais.
+Este projeto foi desenvolvido como parte de uma atividade acadêmica, com o objetivo de aplicar os conhecimentos em desenvolvimento web utilizando PHP, MySQL e Bootstrap. 
+Trata-se de um sistema CRUD simples voltado para o gerenciamento de uma biblioteca, onde é possível cadastrar clientes, listar livros disponíveis, realizar login de usuários e funcionários, e gerenciar sessões. 
 
-🚀 Funcionalidades
-Cadastro de clientes
+O foco principal está em demonstrar a integração entre front-end e back-end, além da manipulação de dados em um banco relacional.
 
-Login para clientes e funcionários
+Para utilizar o sistema, é necessário ter o XAMPP ou WAMP instalado em sua máquina. 
+Após isso, basta copiar a pasta do projeto para o diretório htdocs (no caso do XAMPP) e iniciar os serviços do Apache e MySQL. 
 
-Listagem de livros disponíveis
+Em seguida, deve-se acessar o phpMyAdmin e criar um banco de dados com o nome livrariasucesso, importando o arquivo bdBibliotecaSQL.txt que acompanha o projeto. 
+A conexão com o banco já está configurada no arquivo banco.php, utilizando como padrão o usuário root sem senha. 
 
-Controle básico de sessão (login/logout)
+Com isso feito, o sistema pode ser acessado pelo navegador através do endereço http://localhost/Biblioteca/index.php.
 
-Interface responsiva com Bootstrap
-
-🛠️ Tecnologias Utilizadas
-HTML, CSS (Bootstrap)
-
-PHP
-
-MySQL (script incluso)
-
-🗂️ Estrutura do Projeto
-index.php: Página inicial
-
-login.php e loginfuncionario.php: Telas de login
-
-cadastro.php: Cadastro de novos usuários
-
-livros.php: Listagem de livros
-
-clientes.php: Listagem de clientes
-
-banco.php: Conexão com o banco de dados
-
-bdBibliotecaSQL.txt: Script SQL para criação do banco de dados
-
-bootstrap.min.css / js: Arquivos de estilo e interação
-
-🔧 Como rodar o projeto localmente
-Instale um servidor local como o XAMPP ou WAMP
-
-Copie os arquivos para a pasta htdocs (XAMPP) ou www (WAMP)
-
-Importe o banco de dados:
-
-Abra o phpMyAdmin
-
-Crie um banco com o nome desejado
-
-Importe o arquivo bdBibliotecaSQL.txt
-
-Ajuste a conexão no arquivo banco.php (usuário, senha e nome do banco)
-
-Acesse o projeto via navegador em:
-
-http://localhost/Biblioteca/index.php
-
+Att, Cauan - 01/07/2025
